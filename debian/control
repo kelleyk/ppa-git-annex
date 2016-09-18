@@ -19,6 +19,7 @@ Build-Depends:
 	libghc-resourcet-dev,
 	libghc-quickcheck2-dev,
 	libghc-monad-control-dev (>= 0.3),
+	libghc-transformers-dev,
 	libghc-exceptions-dev (>= 0.6),
 	libghc-unix-compat-dev,
 	libghc-dlist-dev,
@@ -72,14 +73,19 @@ Build-Depends:
 	libghc-optparse-applicative-dev (>= 0.11.0),
 	libghc-cabal-dev,
 	libghc-torrent-dev,
+	libghc-concurrent-output-dev,
+	libghc-disk-free-space-dev,
+	libghc-mountpoints-dev,
+	libghc-magic-dev,
 	lsof [linux-any],
 	ikiwiki,
-	perlmagick,
+	libimage-magick-perl,
 	git (>= 1:1.8.1),
 	rsync,
 	curl,
 	openssh-client,
 	git-remote-gcrypt (>= 0.20130908-6),
+	chrpath,
 
 Maintainer: Richard Hartmann <richih@debian.org>
 Standards-Version: 3.9.6
