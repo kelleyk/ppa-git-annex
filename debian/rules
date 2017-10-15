@@ -12,14 +12,23 @@ export RELEASE_BUILD=1
 	dh $@
 
 
+override_dh_auto_build:
+	dh_auto_build -- BUILDER="cabal --config-file=$(CURDIR)/.cabal/cabal.config"
+
+override_dh_auto_test:
+	dh_auto_test -- BUILDER="cabal --config-file=$(CURDIR)/.cabal/cabal.config"
+
+override_dh_auto_install:
+	dh_auto_install -- BUILDER="cabal --config-file=$(CURDIR)/.cabal/cabal.config"
+
 # Standalone build logic/helpers
 ifeq ($(STANDALONE_BUILD),1)
 
 override_dh_auto_build:
-	make linuxstandalone GIT_ANNEX_PACKAGE_INSTALL=1
+	make linuxstandalone GIT_ANNEX_PACKAGE_INSTALL=1 BUILDER="cabal --config-file=$(CURDIR)/.cabal/cabal.config"
 
 override_dh_auto_install:
-	make install-misc install-docs DESTDIR=debian/git-annex-standalone
+	make install-misc install-docs DESTDIR=debian/git-annex-standalone BUILDER="cabal --config-file=$(CURDIR)/.cabal/cabal.config"
 	# bins are linked into place, as instructed in debian/install and debian/links
 
 override_dh_fixperms:

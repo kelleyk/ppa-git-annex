@@ -1,3 +1,22 @@
+git-annex (6.20171003~1.gite7a9ed3-kk4) UNRELEASED; urgency=low
+
+  * Add same configuration to dh_auto_install.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 14 Oct 2017 19:43:43 -0700
+
+git-annex (6.20171003~1.gite7a9ed3-kk3) UNRELEASED; urgency=low
+
+  * Add same configuration to dh_auto_test.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 14 Oct 2017 19:43:43 -0700
+
+git-annex (6.20171003~1.gite7a9ed3-kk2) UNRELEASED; urgency=low
+
+  * Change cabal configuration path so that builds work when HOME is
+    not writable.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 14 Oct 2017 19:43:43 -0700
+
 git-annex (6.20171003~1.gite7a9ed3-kk1) UNRELEASED; urgency=low
 
    * Upstream 6.20171003 release.
