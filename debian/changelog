@@ -1,8 +1,8 @@
-git-annex (6.20160907~1.gitad0a7f6-kk2) UNRELEASED; urgency=low
+git-annex (6.20171003~1.gite7a9ed3-kk1) UNRELEASED; urgency=low
 
-   * Fix Launchpad's complaints about packaging (or try to).
+   * Upstream 6.20171003 release.
 
- -- Kevin Kelley <kelleyk@kelleyk.net>  Mon, 18 Sep 2016 11:34:09 -0700
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 14 Oct 2017 19:43:43 -0700
 
 git-annex (6.20160907~1.gitad0a7f6-kk1) UNRELEASED; urgency=low
 
