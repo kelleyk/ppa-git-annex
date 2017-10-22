@@ -1,3 +1,9 @@
+git-annex (6.20171003~1.gite7a9ed3-kk5) UNRELEASED; urgency=low
+
+  * Clean up build dependencies in debian/rules.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 14 Oct 2017 19:43:43 -0700
+
 git-annex (6.20171003~1.gite7a9ed3-kk4) UNRELEASED; urgency=low
 
   * Add same configuration to dh_auto_install.
