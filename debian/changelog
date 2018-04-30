@@ -1,3 +1,9 @@
+git-annex (6.20180409~1.gitba8a315-kk1) UNRELEASED; urgency=low
+
+   * Upstream 6.20180409 release.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Mon, 30 Apr 2018 11:25:09 -0700
+
 git-annex (6.20171003~1.gite7a9ed3-kk5) UNRELEASED; urgency=low
 
   * Clean up build dependencies in debian/rules.
